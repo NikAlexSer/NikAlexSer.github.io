@@ -1,0 +1,368 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+header .logo-img {
+  width: 50px;
+  height: 50px;
+}
+
+header .logo h1 {
+  font-size: 2em;
+}
+
+section {
+  padding: 20px;
+  margin: 20px 0;
+}
+
+h2 {
+  color: #2c3e50;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+.services-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.service-item {
+  text-align: center;
+  width: 220px;
+}
+
+.service-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #2c3e50;
+  color: white;
+}
+
+/* Для страницы услуг */
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.service-item {
+  text-align: center;
+  width: 30%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+h3 {
+  margin-top: 15px;
+  color: #2c3e50;
+}
+
+p {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Стиль для страницы О нас */
+#about {
+  padding: 20px;
+  background-color: #fff;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+#about h2 {
+  color: #2c3e50;
+}
+
+#about p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+#about ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+#about .team-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+h3 {
+  color: #2c3e50;
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #2c3e50;
+  color: white;
+}
+
+/* Стиль для страницы Контакты */
+#contact {
+  padding: 20px;
+  background-color: #fff;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+#contact h2 {
+  color: #2c3e50;
+}
+
+#contact .contact-info {
+  margin-bottom: 30px;
+}
+
+#contact h3 {
+  color: #2c3e50;
+  margin-top: 15px;
+}
+
+#contact p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact form label {
+  font-size: 16px;
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+#contact form input, #contact form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+
+#contact form button {
+  padding: 10px 20px;
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#contact form button:hover {
+  background-color: #34495e;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #2c3e50;
+  color: white;
+}
+
+/* Стиль для страницы Отзывы */
+#reviews {
+  padding: 20px;
+  background-color: #fff;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+#reviews h2 {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.review-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding: 20px 0;
+}
+
+.review-item:last-child {
+  border-bottom: none;
+}
+
+.customer-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+h3 {
+  color: #2c3e50;
+  margin: 0;
+}
+
+.date {
+  font-size: 14px;
+  color: #aaa;
+  margin-top: 5px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Стиль для страницы Отзывы */
+#reviews {
+  padding: 20px;
+  background-color: #fff;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+#reviews h2 {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.review-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding: 20px 0;
+}
+
+.review-item:last-child {
+  border-bottom: none;
+}
+
+.customer-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+h3 {
+  color: #2c3e50;
+  margin: 0;
+}
+
+.date {
+  font-size: 14px;
+  color: #aaa;
+  margin-top: 5px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+  margin-top: 10px;
+}
+
+.rating {
+  margin-top: 10px;
+}
+
+.star {
+  color: #f39c12;
+  font-size: 20px;
+}
+

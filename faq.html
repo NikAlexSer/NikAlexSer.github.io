@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ | Автосервис "АвтоМастер"</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Логотип Автосервиса" class="logo-img">
+            <h1>Автосервис "АвтоМастер"</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index1.html">Главная</a></li>
+                <li><a href="services.html">Услуги</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="prices.html">Цены</a></li>
+                <li><a href="reviews.html">Отзывы</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    </body>
+<style>    
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            display: flex;
+            align-items: flex-end;
+        }
+
+        .image {
+            width: 150px; /* ширина изображений */
+            margin: 0 10px;
+            animation: move 2s infinite alternate; /* анимация для каждого изображения */
+        }
+
+        .image:nth-child(1) {
+            animation-delay: 0s;
+        }
+
+        .image:nth-child(2) {
+            animation-delay: 0.5s;
+        }
+
+        .image:nth-child(3) {
+            animation-delay: 1s;
+        }
+
+        @keyframes move {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(-20px); /* высота поднятия изображения */
+            }
+        }  
+</style>
+</body>
+<body>
+        <div class="container" align ="center">
+            <img class="image" src="image1.png" alt="Image 1">
+            <img class="image" src="image2.png" alt="Image 2">
+            <img class="image" src="image3.png" alt="Image 3">
+        </div>
+    </body>
+    <section id="faq">
+        <h2>Часто задаваемые вопросы</h2>
+        <div class="faq-item">
+            <h3>Как записаться на обслуживание?</h3>
+            <p>Вы можете записаться через нашу форму на сайте или по телефону.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Какие виды автомобилей вы обслуживаете?</h3>
+            <p>Мы обслуживаем все типы автомобилей, включая иномарки и отечественные автомобили.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Как долго длится диагностика?</h3>
+            <p>Диагностика обычно занимает от 30 минут до 1 часа в зависимости от сложности автомобиля.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Автосервис "АвтоМастер". Все права защищены.</p>
+    </footer>
+</body>
+</html>
