@@ -456,3 +456,5 @@ footer {
     font-size: 12px;
   }
 }
+
+img { max-width: 100%; height: auto; }
